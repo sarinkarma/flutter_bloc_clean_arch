@@ -321,33 +321,5 @@ flutter pub global run intl_utils:generate  (this is for the first time next tim
 
 ```
 
-## Packages used in template
-
-- #### [auto_route](https://pub.dev/packages/auto_route)   used for routing
-- #### [get_it](https://pub.dev/packages/get_it)   used for service locator
-- #### [injectable](https://pub.dev/packages/injectable)   used for dependency injection with get_it
-- #### [flutter_bloc](https://pub.dev/packages/flutter_bloc)   used for state management
-- #### [flutter_screenutil](https://pub.dev/packages/flutter_screenutil)   used to get adaptive sizes
-- #### [freezed](https://pub.dev/packages/freezed)   used to generate union classes
-- #### [json_serializable](https://pub.dev/packages/json_serializable)   used to generate jsonConverter for models
-- #### [equatable](https://pub.dev/packages/equatable)   used to generate equality for models
-- #### [dartz](https://pub.dev/packages/dartz)   used for functional programming
-- #### [internet_connection_checker](https://pub.dev/packages/internet_connection_checker)   used to check internet connectivity status
-- #### [dio](https://pub.dev/packages/dio)   used for http client
-- #### [graphql](https://pub.dev/packages/graphql)   http client for graph requests
-- #### [gql_dio_link](https://pub.dev/packages/gql_dio_link)   used to add a dio link to graphql client to use features of dio
-- #### [flutter_dotenv](https://pub.dev/packages/flutter_dotenv)   used to manage different variables for different environment
-- #### [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)   used to create and store encryption key for hive
-- #### [hive](https://pub.dev/packages/hive)   used to manage session of user
-- #### [hive_flutter](https://pub.dev/packages/hive_flutter)   used with hive to make hive work in flutter
-- #### [logging](https://pub.dev/packages/logging)   used for logging
-- #### [device_info_plus](https://pub.dev/packages/device_info_plus)   used to get information of device
-- #### [path_provider](https://pub.dev/packages/path_provider)   used to get different path from app (documents,downloads etc.)
-- #### [path](https://pub.dev/packages/path)   used for path manipulating
-- #### [drift](https://pub.dev/packages/drift)   used for local database
-- #### [sqlite3_flutter_libs](https://pub.dev/packages/sqlite3_flutter_libs)   used with drift to work with sqlite
-- #### [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)   used to create native splash on different platform
-- #### [cached_network_image](https://pub.dev/packages/cached_network_image)   used to render network images
-- #### [flutter_svg](https://pub.dev/packages/flutter_svg)   used to render svg images
 
 

@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
 import 'package:flutter/material.dart';
 
 // TODO We can customize this screen as per our design to show errors on debug and release mode

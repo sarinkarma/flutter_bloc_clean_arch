@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022.
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -36,29 +29,25 @@ class App extends StatelessWidget {
       ],
       child: BlocBuilder<LocaleCubit, LocaleState>(
         builder: (context, state) {
-          return AdaptiveSizer(
-            builder: (context) {
-              return MaterialApp.router(
-                restorationScopeId: 'root',
-                debugShowCheckedModeBanner: false,
-                useInheritedMediaQuery: true,
-                routeInformationParser: _appRouter.defaultRouteParser(),
-                routerDelegate: _appRouter.delegate(),
-                localizationsDelegates: [
-                  AppLocalizations.delegate,
-                  GlobalMaterialLocalizations.delegate,
-                  GlobalWidgetsLocalizations.delegate,
-                  GlobalCupertinoLocalizations.delegate,
-                ],
-                locale: state.locale,
-                theme: AppTheme.lightTheme,
-                supportedLocales: AppLocalizations.delegate.supportedLocales,
-                builder: (BuildContext context, Widget? child) {
-                  ErrorWidget.builder = (FlutterErrorDetails details) =>
-                      AppErrorWidget(details: details);
-                  return child!;
-                },
-              );
+          return MaterialApp.router(
+            restorationScopeId: 'root',
+            debugShowCheckedModeBanner: false,
+            useInheritedMediaQuery: true,
+            routeInformationParser: _appRouter.defaultRouteParser(),
+            routerDelegate: _appRouter.delegate(),
+            localizationsDelegates: [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            locale: state.locale,
+            theme: AppTheme.lightTheme,
+            supportedLocales: AppLocalizations.delegate.supportedLocales,
+            builder: (BuildContext context, Widget? child) {
+              ErrorWidget.builder = (FlutterErrorDetails details) =>
+                  AppErrorWidget(details: details);
+              return child!;
             },
           );
         },

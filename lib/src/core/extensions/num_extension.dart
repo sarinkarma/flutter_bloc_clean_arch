@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 
 extension NumExtensionX on num {
@@ -34,21 +27,21 @@ extension NumExtensionX on num {
 
   Future get delayedHours async => Future.delayed(toInt().hours);
 
-  Radius get circular => Radius.circular(toDouble().r);
+  Radius get circular => Radius.circular(toDouble());
 
-  BorderRadiusGeometry get rounded => BorderRadius.circular(toDouble().r);
+  BorderRadiusGeometry get rounded => BorderRadius.circular(toDouble());
 
-  EdgeInsets get all => EdgeInsets.all(toDouble().r);
+  EdgeInsets get all => EdgeInsets.all(toDouble());
 
-  EdgeInsets get bottomOnly => EdgeInsets.only(bottom: toDouble().r);
+  EdgeInsets get bottomOnly => EdgeInsets.only(bottom: toDouble());
 
-  EdgeInsets get topOnly => EdgeInsets.only(top: toDouble().r);
+  EdgeInsets get topOnly => EdgeInsets.only(top: toDouble());
 
-  EdgeInsets get leftOnly => EdgeInsets.only(left: toDouble().r);
+  EdgeInsets get leftOnly => EdgeInsets.only(left: toDouble());
 
-  EdgeInsets get rightOnly => EdgeInsets.only(right: toDouble().r);
+  EdgeInsets get rightOnly => EdgeInsets.only(right: toDouble());
 
-  EdgeInsets get horizontal => EdgeInsets.symmetric(horizontal: toDouble().w);
+  EdgeInsets get horizontal => EdgeInsets.symmetric(horizontal: toDouble());
 
-  EdgeInsets get vertical => EdgeInsets.symmetric(vertical: toDouble().h);
+  EdgeInsets get vertical => EdgeInsets.symmetric(vertical: toDouble());
 }

@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2022.
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
 import 'package:logger/logger.dart';
 
 final logger = Logger(

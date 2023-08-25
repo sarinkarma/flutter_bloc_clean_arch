@@ -1,12 +1,5 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
 import 'dart:io';
 
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -44,7 +37,7 @@ class AppTheme {
         color: AppColors.white,
         borderRadius: 24.rounded,
       ),
-      labelPadding: EdgeInsets.symmetric(horizontal: 20.w),
+      labelPadding: EdgeInsets.symmetric(horizontal: 20),
       labelStyle: AppStyles.text14PxBold.textDark,
       labelColor: AppColors.textDark,
       unselectedLabelColor: AppColors.textLight,
@@ -54,33 +47,33 @@ class AppTheme {
     splashColor: AppColors.white,
     inputDecorationTheme: InputDecorationTheme(
       isDense: true,
-      contentPadding: EdgeInsets.symmetric(vertical: 12.h, horizontal: 16.w),
+      contentPadding: EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8.r),
+        borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide.none,
       ),
       filled: true,
       hintStyle: AppStyles.text16Px.textGrey,
       fillColor: AppColors.white,
       constraints: BoxConstraints(
-        minHeight: 44.h,
+        minHeight: 44,
         maxWidth: double.infinity,
         minWidth: double.infinity,
       ),
       focusedBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8.r),
+        borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide.none,
       ),
       enabledBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8.r),
+        borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide.none,
       ),
       errorBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8.r),
+        borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide.none,
       ),
       focusedErrorBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8.r),
+        borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide.none,
       ),
     ),

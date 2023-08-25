@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022. 
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_clean_arch/src/core/extensions/extensions.dart';
 import 'package:flutter_bloc_clean_arch/src/core/themes/theme.dart';
@@ -65,7 +58,6 @@ class CustomButton extends StatelessWidget {
           else ...[
             if (!rightIcon) ...[
               icon,
-              gap.horizontalSpace,
             ],
             Text(
               label,
@@ -78,7 +70,6 @@ class CustomButton extends StatelessWidget {
                           isDisabled ? textColor.withOpacity(0.6) : textColor),
             ),
             if (rightIcon) ...[
-              gap.horizontalSpace,
               icon,
             ],
           ]
@@ -108,7 +99,6 @@ class CustomButton extends StatelessWidget {
           else ...[
             if (!rightIcon) ...[
               icon,
-              gap.horizontalSpace,
             ],
             Text(
               label,
@@ -121,7 +111,6 @@ class CustomButton extends StatelessWidget {
                           isDisabled ? textColor.withOpacity(0.6) : textColor),
             ),
             if (rightIcon) ...[
-              gap.horizontalSpace,
               icon,
             ],
           ]
@@ -184,7 +173,7 @@ class CustomButton extends StatelessWidget {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 400),
           curve: Curves.linearToEaseOut,
-          padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 5.h),
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
           height: height,
           child: Row(
             mainAxisSize: fullWidth ? MainAxisSize.max : MainAxisSize.min,
@@ -208,8 +197,8 @@ class _ButtonLoading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 22.r,
-      height: 22.r,
+      width: 22,
+      height: 22,
       child: CircularProgressIndicator.adaptive(
         backgroundColor: loadingColor,
         strokeWidth: 1.8,
@@ -267,7 +256,6 @@ class CustomOutlinedButton extends StatelessWidget {
           else ...[
             if (!rightIcon) ...[
               icon,
-              gap.horizontalSpace,
             ],
             Text(
               label,
@@ -280,7 +268,6 @@ class CustomOutlinedButton extends StatelessWidget {
                           isDisabled ? textColor.withOpacity(0.6) : textColor),
             ),
             if (rightIcon) ...[
-              gap.horizontalSpace,
               icon,
             ],
           ]
@@ -307,7 +294,7 @@ class CustomOutlinedButton extends StatelessWidget {
         borderRadius: 8.rounded,
         side: BorderSide(
           color: isDisabled ? disabledColor : borderColor,
-          width: 1.r,
+          width: 1,
         ),
       ),
       clipBehavior: Clip.antiAlias,
@@ -318,7 +305,7 @@ class CustomOutlinedButton extends StatelessWidget {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 400),
           curve: Curves.linearToEaseOut,
-          padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 5.h),
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
           height: height,
           child: Row(
             mainAxisSize: fullWidth ? MainAxisSize.max : MainAxisSize.min,

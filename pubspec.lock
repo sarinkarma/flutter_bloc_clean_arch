@@ -9,15 +9,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "55.0.0"
-  adaptive_sizer:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: ed3c0cf03ebe044fe6d1eca0fa0f1c0770a32a77
-      url: "https://github.com/kishor98100/adaptive_sizer"
-    source: git
-    version: "0.0.2"
   analyzer:
     dependency: transitive
     description:

@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -12,14 +5,14 @@ abstract class AppStyles {
   // text 9px
   //regular
   static TextStyle text9Px = GoogleFonts.roboto(
-    fontSize: 9.sp,
+    fontSize: 9,
     height: calculateHeight(11, 9),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text9PxMedium = GoogleFonts.roboto(
-    fontSize: 9.sp,
+    fontSize: 9,
     fontWeight: FontWeight.w500,
     height: calculateHeight(11, 9),
     fontStyle: FontStyle.normal,
@@ -27,7 +20,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text9PxSemiBold = GoogleFonts.roboto(
-    fontSize: 9.sp,
+    fontSize: 9,
     fontWeight: FontWeight.w600,
     height: calculateHeight(11, 9),
     fontStyle: FontStyle.normal,
@@ -35,7 +28,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text9PxBold = GoogleFonts.roboto(
-    fontSize: 9.sp,
+    fontSize: 9,
     fontWeight: FontWeight.bold,
     height: calculateHeight(11, 9),
     fontStyle: FontStyle.normal,
@@ -45,14 +38,14 @@ abstract class AppStyles {
 
   //regular
   static TextStyle text12Px = GoogleFonts.roboto(
-    fontSize: 12.sp,
+    fontSize: 12,
     height: calculateHeight(14, 12),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text12PxMedium = GoogleFonts.roboto(
-    fontSize: 12.sp,
+    fontSize: 12,
     fontWeight: FontWeight.w500,
     height: calculateHeight(14, 12),
     fontStyle: FontStyle.normal,
@@ -60,7 +53,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text12PxSemiBold = GoogleFonts.roboto(
-    fontSize: 12.sp,
+    fontSize: 12,
     fontWeight: FontWeight.w600,
     height: calculateHeight(14, 12),
     fontStyle: FontStyle.normal,
@@ -68,7 +61,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text12PxBold = GoogleFonts.roboto(
-    fontSize: 12.sp,
+    fontSize: 12,
     fontWeight: FontWeight.bold,
     height: calculateHeight(14, 12),
     fontStyle: FontStyle.normal,
@@ -77,14 +70,14 @@ abstract class AppStyles {
   // text 13px
   //regular
   static TextStyle text13Px = GoogleFonts.roboto(
-    fontSize: 13.sp,
+    fontSize: 13,
     height: calculateHeight(17, 13),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text13PxMedium = GoogleFonts.roboto(
-    fontSize: 13.sp,
+    fontSize: 13,
     fontWeight: FontWeight.w500,
     height: calculateHeight(17, 13),
     fontStyle: FontStyle.normal,
@@ -92,7 +85,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text13PxSemiBold = GoogleFonts.roboto(
-    fontSize: 13.sp,
+    fontSize: 13,
     fontWeight: FontWeight.w600,
     height: calculateHeight(17, 13),
     fontStyle: FontStyle.normal,
@@ -100,7 +93,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text13PxBold = GoogleFonts.roboto(
-    fontSize: 13.sp,
+    fontSize: 13,
     fontWeight: FontWeight.bold,
     height: calculateHeight(17, 13),
     fontStyle: FontStyle.normal,
@@ -109,14 +102,14 @@ abstract class AppStyles {
   // text 14px
   //regular
   static TextStyle text14Px = GoogleFonts.roboto(
-    fontSize: 14.sp,
+    fontSize: 14,
     height: calculateHeight(17, 14),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text14PxMedium = GoogleFonts.roboto(
-    fontSize: 14.sp,
+    fontSize: 14,
     fontWeight: FontWeight.w500,
     height: calculateHeight(17, 14),
     fontStyle: FontStyle.normal,
@@ -124,7 +117,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text14PxSemiBold = GoogleFonts.roboto(
-    fontSize: 14.sp,
+    fontSize: 14,
     fontWeight: FontWeight.w600,
     height: calculateHeight(17, 14),
     fontStyle: FontStyle.normal,
@@ -132,7 +125,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text14PxBold = GoogleFonts.roboto(
-    fontSize: 14.sp,
+    fontSize: 14,
     fontWeight: FontWeight.bold,
     height: calculateHeight(17, 14),
     fontStyle: FontStyle.normal,
@@ -141,14 +134,14 @@ abstract class AppStyles {
   // text 16px
   //regular
   static TextStyle text16Px = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 16,
     height: calculateHeight(19, 16),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text16PxMedium = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 16,
     fontWeight: FontWeight.w500,
     height: calculateHeight(19, 16),
     fontStyle: FontStyle.normal,
@@ -156,7 +149,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text16PxSemiBold = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 16,
     fontWeight: FontWeight.w600,
     height: calculateHeight(19, 16),
     fontStyle: FontStyle.normal,
@@ -164,7 +157,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text16PxBold = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 16,
     fontWeight: FontWeight.bold,
     height: calculateHeight(19, 16),
     fontStyle: FontStyle.normal,
@@ -173,14 +166,14 @@ abstract class AppStyles {
   // text 18px
   //regular
   static TextStyle text18Px = GoogleFonts.roboto(
-    fontSize: 18.sp,
+    fontSize: 18,
     height: calculateHeight(21, 18),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text18PxMedium = GoogleFonts.roboto(
-    fontSize: 18.sp,
+    fontSize: 18,
     fontWeight: FontWeight.w500,
     height: calculateHeight(21, 18),
     fontStyle: FontStyle.normal,
@@ -188,7 +181,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text18PxSemiBold = GoogleFonts.roboto(
-    fontSize: 18.sp,
+    fontSize: 18,
     fontWeight: FontWeight.w600,
     height: calculateHeight(21, 18),
     fontStyle: FontStyle.normal,
@@ -196,7 +189,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text18PxBold = GoogleFonts.roboto(
-    fontSize: 18.sp,
+    fontSize: 18,
     fontWeight: FontWeight.bold,
     height: calculateHeight(21, 18),
     fontStyle: FontStyle.normal,
@@ -205,14 +198,14 @@ abstract class AppStyles {
   // text 20px
   //regular
   static TextStyle text20Px = GoogleFonts.roboto(
-    fontSize: 20.sp,
+    fontSize: 20,
     height: calculateHeight(24, 20),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text20PxMedium = GoogleFonts.roboto(
-    fontSize: 20.sp,
+    fontSize: 20,
     fontWeight: FontWeight.w500,
     height: calculateHeight(24, 20),
     fontStyle: FontStyle.normal,
@@ -220,7 +213,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text20PxSemiBold = GoogleFonts.roboto(
-    fontSize: 20.sp,
+    fontSize: 20,
     fontWeight: FontWeight.w600,
     height: calculateHeight(24, 20),
     fontStyle: FontStyle.normal,
@@ -228,7 +221,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text20PxBold = GoogleFonts.roboto(
-    fontSize: 20.sp,
+    fontSize: 20,
     fontWeight: FontWeight.bold,
     height: calculateHeight(24, 20),
     fontStyle: FontStyle.normal,
@@ -237,14 +230,14 @@ abstract class AppStyles {
   // text 24px
   //regular
   static TextStyle text24Px = GoogleFonts.roboto(
-    fontSize: 24.sp,
+    fontSize: 24,
     height: calculateHeight(28, 24),
     fontStyle: FontStyle.normal,
   );
 
   //medium
   static TextStyle text24PxMedium = GoogleFonts.roboto(
-    fontSize: 24.sp,
+    fontSize: 24,
     fontWeight: FontWeight.w500,
     height: calculateHeight(28, 24),
     fontStyle: FontStyle.normal,
@@ -252,7 +245,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text24PxSemiBold = GoogleFonts.roboto(
-    fontSize: 24.sp,
+    fontSize: 24,
     fontWeight: FontWeight.w600,
     height: calculateHeight(28, 24),
     fontStyle: FontStyle.normal,
@@ -260,7 +253,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text24PxBold = GoogleFonts.roboto(
-    fontSize: 24.sp,
+    fontSize: 24,
     fontWeight: FontWeight.bold,
     height: calculateHeight(28, 24),
     fontStyle: FontStyle.normal,
@@ -269,7 +262,7 @@ abstract class AppStyles {
   // text 36px
   //regular
   static TextStyle text36Px = GoogleFonts.roboto(
-    fontSize: 36.sp,
+    fontSize: 36,
     height: calculateHeight(43, 36),
     fontStyle: FontStyle.normal,
     letterSpacing: calculateSpacing(-0.02),
@@ -277,7 +270,7 @@ abstract class AppStyles {
 
   //medium
   static TextStyle text36PxMedium = GoogleFonts.roboto(
-    fontSize: 36.sp,
+    fontSize: 36,
     fontWeight: FontWeight.w500,
     height: calculateHeight(43, 36),
     fontStyle: FontStyle.normal,
@@ -286,7 +279,7 @@ abstract class AppStyles {
 
   //SemiBold
   static TextStyle text36PxSemiBold = GoogleFonts.roboto(
-    fontSize: 36.sp,
+    fontSize: 36,
     fontWeight: FontWeight.w600,
     height: calculateHeight(43, 36),
     fontStyle: FontStyle.normal,
@@ -295,7 +288,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text36PxBold = GoogleFonts.roboto(
-    fontSize: 36.sp,
+    fontSize: 36,
     fontWeight: FontWeight.bold,
     height: calculateHeight(43, 36),
     fontStyle: FontStyle.normal,
@@ -304,7 +297,7 @@ abstract class AppStyles {
 
   //bold
   static TextStyle text56PxBold = GoogleFonts.roboto(
-    fontSize: 56.sp,
+    fontSize: 56,
     fontWeight: FontWeight.bold,
     height: calculateHeight(67, 56),
     fontStyle: FontStyle.normal,
@@ -312,7 +305,7 @@ abstract class AppStyles {
 
   // calculate line height of text
   static double calculateHeight(double height, double fontSize) {
-    return height.h / fontSize.sp;
+    return height / fontSize;
   }
 
   static double calculateSpacing(double em) {

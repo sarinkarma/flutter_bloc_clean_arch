@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2022.
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
 
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';

@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc_clean_arch/src/core/extensions/extensions.dart';
 import 'package:flutter_bloc_clean_arch/src/core/form/field.dart';

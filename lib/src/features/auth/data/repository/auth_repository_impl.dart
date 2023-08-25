@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2022.
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
 import 'dart:async';
 
 import 'package:flutter_bloc_clean_arch/src/core/base/base_repository.dart';

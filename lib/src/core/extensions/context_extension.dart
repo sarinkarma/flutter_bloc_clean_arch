@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 
 import '../themes/theme.dart';
@@ -46,7 +39,7 @@ extension BuildContextX on BuildContext {
           padding: EdgeInsets.zero,
           elevation: 0,
           duration: const Duration(seconds: 3),
-          margin: EdgeInsets.all(20.r),
+          margin: EdgeInsets.all(20),
         ),
       );
   }

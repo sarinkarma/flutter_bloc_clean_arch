@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_clean_arch/localization/l10n.dart';
@@ -32,7 +25,7 @@ class LoginPage extends StatelessWidget {
           title: const Text('Login'),
         ),
         body: SingleChildScrollView(
-          padding: EdgeInsets.all(20.r),
+          padding: EdgeInsets.all(20),
           child: BlocListener<LoginCubit, LoginState>(
             listener: (context, state) {
               state.maybeWhen(
@@ -65,16 +58,12 @@ class LoginPage extends StatelessWidget {
                   l10n.email,
                   style: AppStyles.text14PxMedium.textGrey,
                 ),
-                8.verticalSpace,
                 const _EmailField(),
-                20.verticalSpace,
                 Text(
                   l10n.password,
                   style: AppStyles.text14PxMedium.textGrey,
                 ),
-                8.verticalSpace,
                 const _PasswordField(),
-                30.verticalSpace,
                 BlocBuilder<LoginFormCubit, LoginFormState>(
                   builder: (context, state) {
                     final loading = context.select<LoginCubit, bool>((value) =>
@@ -91,7 +80,6 @@ class LoginPage extends StatelessWidget {
                     );
                   },
                 ),
-                30.verticalSpace,
               ],
             ),
           ),

@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
@@ -46,8 +39,8 @@ class CacheNetworkImage extends StatelessWidget {
         return placeholderWidget ??
             Center(
               child: SizedBox(
-                width: 20.r,
-                height: 20.r,
+                width: 20,
+                height: 20,
                 child: const CircularProgressIndicator(strokeWidth: 2),
               ),
             );
@@ -56,11 +49,11 @@ class CacheNetworkImage extends StatelessWidget {
         return errorWidget ??
             Center(
               child: SizedBox(
-                width: 20.r,
-                height: 20.r,
+                width: 20,
+                height: 20,
                 child: Icon(
                   Icons.error_outline,
-                  size: 18.r,
+                  size: 18,
                 ),
               ),
             );

@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 
 import '../extensions/extensions.dart';
@@ -40,7 +33,7 @@ class SnackbarWidget extends StatelessWidget {
           ),
           Expanded(
             child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 12.h, horizontal: 10.w),
+              padding: EdgeInsets.symmetric(vertical: 12, horizontal: 10),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -52,7 +45,6 @@ class SnackbarWidget extends StatelessWidget {
                     style: AppStyles.text16PxMedium
                         .copyWith(color: AppColors.white),
                   ),
-                  10.verticalSpace,
                   Text(
                     message,
                     style: AppStyles.text14Px.copyWith(color: AppColors.white),

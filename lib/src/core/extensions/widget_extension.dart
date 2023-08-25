@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2022
- * Author: Kishor Mainali
- * Company: EB Pearls
- */
-
-import 'package:adaptive_sizer/adaptive_sizer.dart';
 import 'package:flutter/material.dart';
 
 extension WidgetExtensionX on Widget {
@@ -18,17 +11,17 @@ extension WidgetExtensionX on Widget {
       );
 
   Padding pad(double pad) => Padding(
-        padding: EdgeInsets.all(pad.r),
+        padding: EdgeInsets.all(pad),
         child: this,
       );
 
   Padding px(double pad) => Padding(
-        padding: EdgeInsets.symmetric(horizontal: pad.w),
+        padding: EdgeInsets.symmetric(horizontal: pad),
         child: this,
       );
 
   Padding py(double pad) => Padding(
-        padding: EdgeInsets.symmetric(vertical: pad.h),
+        padding: EdgeInsets.symmetric(vertical: pad),
         child: this,
       );
   Padding pOnly(
@@ -38,7 +31,7 @@ extension WidgetExtensionX on Widget {
           double bottom = 0}) =>
       Padding(
         padding: EdgeInsets.only(
-            left: left.w, top: top.h, right: right.w, bottom: bottom.h),
+            left: left, top: top, right: right, bottom: bottom),
         child: this,
       );
 }

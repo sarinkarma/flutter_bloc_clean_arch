@@ -25,11 +25,6 @@ dependencies:
   #state management
   flutter_bloc: ^8.1.2
 
-  #adaptive sizes
-  adaptive_sizer:
-    git:
-      url: https://github.com/kishor98100/adaptive_sizer
-
   #data models
   freezed_annotation: ^2.2.0
   json_annotation: ^4.8.0
